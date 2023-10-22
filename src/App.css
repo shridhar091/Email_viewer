@@ -36,3 +36,84 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* CSS */
+
+.email-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color:#F4F5F9;
+  /* max-width: 100%; */
+  /* margin: 0 auto */
+  
+}
+
+.email-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 90%; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  background-color: #F2F2F2;
+}
+
+.email-info {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.email-info p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+/* Add this CSS to your stylesheet */
+.email-form {
+  background-color: #F2F2F2;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  flex-grow: 8;
+  position: fixed;
+}
+
+.email-form h3 {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.email-form p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.btn{
+  border: none;
+  background-color: #F4F5F9;
+  height: 28px;
+  width: 80px;
+  margin: 10px;
+}
+.btn:hover{
+  background-color: #E1E4EA;
+  border-radius: 10px;
+}
+
+.btnFav{
+  display: flex;
+  justify-content: space-between;
+}
+.btnFav button{
+  border: none;
+  border-radius: 15px;
+  background-color: #E54065;
+  padding: 8px;
+  color: white;
+}
